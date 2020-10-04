@@ -23,12 +23,12 @@
         "php": ">=7.3",
         "ext-json": "*",
         "barryvdh/reflection-docblock": "^2.0.6",
-        "composer/composer": "^1.6 || ^2.0@dev",
-        "doctrine/dbal": "~2.3",
+        "composer/composer": "^1.10.13",
+        "doctrine/dbal": "^2.11",
         "illuminate/console": " ^8",
         "illuminate/filesystem": " ^8",
         "illuminate/support": " ^8",
-        "phpdocumentor/type-resolver": "^1.1.0"
+        "phpdocumentor/type-resolver": "^1.4.0"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^2",
@@ -42,16 +42,6 @@
     },
     "config": {
         "sort-packages": true
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "2.8-dev"
-        },
-        "laravel": {
-            "providers": [
-                "Lum\\Generator\\IdeHelperServiceProvider"
-            ]
-        }
     },
     "autoload": {
         "psr-4": {

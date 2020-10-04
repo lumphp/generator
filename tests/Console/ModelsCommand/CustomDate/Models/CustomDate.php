@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Barryvdh\LaravelIdeHelper\Tests\Console\ModelsCommand\CustomDate\Models;
+namespace Lum\Generator\Tests\Console\ModelsCommand\CustomDate\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

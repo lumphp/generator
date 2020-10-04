@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Barryvdh\LaravelIdeHelper\Tests\Console\ModelsCommand\CustomCollection\Models;
+namespace Lum\Generator\Tests\Console\ModelsCommand\CustomCollection\Models;
 
-use Barryvdh\LaravelIdeHelper\Tests\Console\ModelsCommand\CustomCollection\Collections\SimpleCollection;
+use Lum\Generator\Tests\Console\ModelsCommand\CustomCollection\Collections\SimpleCollection;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 

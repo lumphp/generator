@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Barryvdh\LaravelIdeHelper\Tests\Console\ModelsCommand\Relations\Models;
+namespace Lum\Generator\Tests\Console\ModelsCommand\Relations\Models;
 
-use Barryvdh\LaravelIdeHelper\Tests\Console\ModelsCommand\Relations\ModelsOtherNamespace\AnotherModel;
-use Barryvdh\LaravelIdeHelper\Tests\Console\ModelsCommand\Relations\Traits\HasTestRelations;
+use Lum\Generator\Tests\Console\ModelsCommand\Relations\ModelsOtherNamespace\AnotherModel;
+use Lum\Generator\Tests\Console\ModelsCommand\Relations\Traits\HasTestRelations;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;

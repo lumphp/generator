@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Barryvdh\LaravelIdeHelper;
+namespace Lum\Generator;
 
 class Helpers
 {

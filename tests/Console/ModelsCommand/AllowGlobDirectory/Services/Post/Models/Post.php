@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Barryvdh\LaravelIdeHelper\Tests\Console\ModelsCommand\AllowGlobDirectory\Services\Post\Models;
+namespace Lum\Generator\Tests\Console\ModelsCommand\AllowGlobDirectory\Services\Post\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

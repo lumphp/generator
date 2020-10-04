@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Barryvdh\LaravelIdeHelper\Tests\Console\ModelsCommand\CustomDate\Models;
+namespace Lum\Generator\Tests\Console\ModelsCommand\CustomDate\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * Barryvdh\LaravelIdeHelper\Tests\Console\ModelsCommand\CustomDate\Models\CustomDate
+ * Lum\Generator\Tests\Console\ModelsCommand\CustomDate\Models\CustomDate
  *
  * @property \Carbon\CarbonImmutable|null $created_at
  * @property \Carbon\CarbonImmutable|null $updated_at

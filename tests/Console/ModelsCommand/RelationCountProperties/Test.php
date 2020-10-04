@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Barryvdh\LaravelIdeHelper\Tests\Console\ModelsCommand\RelationCountProperties;
+namespace Lum\Generator\Tests\Console\ModelsCommand\RelationCountProperties;
 
-use Barryvdh\LaravelIdeHelper\Console\ModelsCommand;
-use Barryvdh\LaravelIdeHelper\Tests\Console\ModelsCommand\AbstractModelsCommand;
+use Lum\Generator\Console\ModelsCommand;
+use Lum\Generator\Tests\Console\ModelsCommand\AbstractModelsCommand;
 
 class Test extends AbstractModelsCommand
 {

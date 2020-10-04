@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Barryvdh\LaravelIdeHelper\Tests\Factories;
+namespace Lum\Generator\Tests\Factories;
 
-use Barryvdh\LaravelIdeHelper\Factories;
+use Lum\Generator\Factories;
 use PHPUnit\Framework\TestCase;
 
 class AllTest extends TestCase

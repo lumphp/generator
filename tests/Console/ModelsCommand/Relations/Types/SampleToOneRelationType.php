@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Barryvdh\LaravelIdeHelper\Tests\Console\ModelsCommand\Relations\Types;
+namespace Lum\Generator\Tests\Console\ModelsCommand\Relations\Types;
 
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
@@ -14,7 +14,7 @@ use Illuminate\Database\Eloquent\Relations\Relation;
  *
  * the relation is a big fake and only for testing of the docblock generation
  *
- * @package Barryvdh\LaravelIdeHelper\Tests\Console\ModelsCommand\Relations
+ * @package Lum\Generator\Tests\Console\ModelsCommand\Relations
  */
 class SampleToOneRelationType extends Relation
 {

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Barryvdh\LaravelIdeHelper\Tests\Console\MetaCommand;
+namespace Lum\Generator\Tests\Console\MetaCommand;
 
-use Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider;
-use Barryvdh\LaravelIdeHelper\Tests\TestCase;
+use Lum\Generator\IdeHelperServiceProvider;
+use Lum\Generator\Tests\TestCase;
 use Illuminate\Filesystem\Filesystem;
 use Mockery\MockInterface;
 

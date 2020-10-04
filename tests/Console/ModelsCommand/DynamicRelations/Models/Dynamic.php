@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Barryvdh\LaravelIdeHelper\Tests\Console\ModelsCommand\DynamicRelations\Models;
+namespace Lum\Generator\Tests\Console\ModelsCommand\DynamicRelations\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
@@ -11,7 +11,7 @@ use Illuminate\Database\Eloquent\Relations\HasOne;
 
 class Dynamic extends Model
 {
-    /** @var \Barryvdh\LaravelIdeHelper\Tests\Console\ModelsCommand\DynamicRelations\OtherModels\Account */
+    /** @var \Lum\Generator\Tests\Console\ModelsCommand\DynamicRelations\OtherModels\Account */
     protected $account;
 
     // Regular relations

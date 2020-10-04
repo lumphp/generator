@@ -9,9 +9,9 @@
  * @link      https://github.com/barryvdh/laravel-ide-helper
  */
 
-namespace Barryvdh\LaravelIdeHelper\Console;
+namespace Lum\Generator\Console;
 
-use Barryvdh\LaravelIdeHelper\Eloquent;
+use Lum\Generator\Eloquent;
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
 
@@ -27,7 +27,7 @@ class EloquentCommand extends Command
      *
      * @var string
      */
-    protected $name = 'ide-helper:eloquent';
+    protected $name = 'gen:eloquent';
 
     /**
      * @var Filesystem $files

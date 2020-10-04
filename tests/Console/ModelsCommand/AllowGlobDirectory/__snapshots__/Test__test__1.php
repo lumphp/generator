@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Barryvdh\LaravelIdeHelper\Tests\Console\ModelsCommand\AllowGlobDirectory\Services\Post\Models;
+namespace Lum\Generator\Tests\Console\ModelsCommand\AllowGlobDirectory\Services\Post\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * Barryvdh\LaravelIdeHelper\Tests\Console\ModelsCommand\AllowGlobDirectory\Services\Post\Models\Post
+ * Lum\Generator\Tests\Console\ModelsCommand\AllowGlobDirectory\Services\Post\Models\Post
  *
  * @property integer $id
  * @property string|null $char_nullable

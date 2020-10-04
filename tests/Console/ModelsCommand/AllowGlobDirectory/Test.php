@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Barryvdh\LaravelIdeHelper\Tests\Console\ModelsCommand\AllowGlobDirectory;
+namespace Lum\Generator\Tests\Console\ModelsCommand\AllowGlobDirectory;
 
-use Barryvdh\LaravelIdeHelper\Console\ModelsCommand;
-use Barryvdh\LaravelIdeHelper\Tests\Console\ModelsCommand\AbstractModelsCommand;
+use Lum\Generator\Console\ModelsCommand;
+use Lum\Generator\Tests\Console\ModelsCommand\AbstractModelsCommand;
 
 final class Test extends AbstractModelsCommand
 {

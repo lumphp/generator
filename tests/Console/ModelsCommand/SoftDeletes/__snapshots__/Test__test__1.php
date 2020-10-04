@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Barryvdh\LaravelIdeHelper\Tests\Console\ModelsCommand\SoftDeletes\Models;
+namespace Lum\Generator\Tests\Console\ModelsCommand\SoftDeletes\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
 /**
- * Barryvdh\LaravelIdeHelper\Tests\Console\ModelsCommand\SoftDeletes\Models\Simple
+ * Lum\Generator\Tests\Console\ModelsCommand\SoftDeletes\Models\Simple
  *
  * @property integer $id
  * @method static \Illuminate\Database\Eloquent\Builder|Simple newModelQuery()

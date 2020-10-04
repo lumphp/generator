@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Barryvdh\LaravelIdeHelper\Tests\Console\ModelsCommand\Getter\Models;
+namespace Lum\Generator\Tests\Console\ModelsCommand\Getter\Models;
 
 use DateTime;
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * Barryvdh\LaravelIdeHelper\Tests\Console\ModelsCommand\Getter\Models\Simple
+ * Lum\Generator\Tests\Console\ModelsCommand\Getter\Models\Simple
  *
  * @property integer $id
  * @property-read int|null $attribute_return_type_int_or_null

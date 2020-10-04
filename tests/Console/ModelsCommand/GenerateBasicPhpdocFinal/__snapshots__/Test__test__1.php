@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Barryvdh\LaravelIdeHelper\Tests\Console\ModelsCommand\GenerateBasicPhpdocFinal\Models;
+namespace Lum\Generator\Tests\Console\ModelsCommand\GenerateBasicPhpdocFinal\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * Barryvdh\LaravelIdeHelper\Tests\Console\ModelsCommand\GenerateBasicPhpdocFinal\Models\Post
+ * Lum\Generator\Tests\Console\ModelsCommand\GenerateBasicPhpdocFinal\Models\Post
  *
  * @property integer $id
  * @property string|null $char_nullable

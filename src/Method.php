@@ -9,7 +9,7 @@
  * @link      https://github.com/barryvdh/laravel-ide-helper
  */
 
-namespace Barryvdh\LaravelIdeHelper;
+namespace Lum\Generator;
 
 use Barryvdh\Reflection\DocBlock;
 use Barryvdh\Reflection\DocBlock\Context;

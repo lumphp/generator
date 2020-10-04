@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Barryvdh\LaravelIdeHelper\Tests\Console\ModelsCommand\Relations\Traits;
+namespace Lum\Generator\Tests\Console\ModelsCommand\Relations\Traits;
 
-use Barryvdh\LaravelIdeHelper\Tests\Console\ModelsCommand\Relations\Types\SampleToManyRelationType;
-use Barryvdh\LaravelIdeHelper\Tests\Console\ModelsCommand\Relations\Types\SampleToOneRelationType;
+use Lum\Generator\Tests\Console\ModelsCommand\Relations\Types\SampleToManyRelationType;
+use Lum\Generator\Tests\Console\ModelsCommand\Relations\Types\SampleToOneRelationType;
 
 trait HasTestRelations
 {

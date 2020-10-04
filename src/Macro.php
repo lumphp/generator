@@ -1,6 +1,6 @@
 <?php
 
-namespace Barryvdh\LaravelIdeHelper;
+namespace Lum\Generator;
 
 use Barryvdh\Reflection\DocBlock;
 use Barryvdh\Reflection\DocBlock\Tag;

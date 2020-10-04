@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Barryvdh\LaravelIdeHelper\Tests\Console\ModelsCommand\GeneratePhpdocWithFqnInExternalFile\Models;
+namespace Lum\Generator\Tests\Console\ModelsCommand\GeneratePhpdocWithFqnInExternalFile\Models;
 
-use Barryvdh\LaravelIdeHelper\Tests\Console\ModelsCommand\GeneratePhpdocWithFqnInExternalFile\Builders\EMaterialQueryBuilder;
+use Lum\Generator\Tests\Console\ModelsCommand\GeneratePhpdocWithFqnInExternalFile\Builders\EMaterialQueryBuilder;
 use Illuminate\Database\Eloquent\Model;
 
 class Post extends Model

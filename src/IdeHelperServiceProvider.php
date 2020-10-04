@@ -9,12 +9,12 @@
  * @link      https://github.com/barryvdh/laravel-ide-helper
  */
 
-namespace Barryvdh\LaravelIdeHelper;
+namespace Lum\Generator;
 
-use Barryvdh\LaravelIdeHelper\Console\EloquentCommand;
-use Barryvdh\LaravelIdeHelper\Console\GeneratorCommand;
-use Barryvdh\LaravelIdeHelper\Console\MetaCommand;
-use Barryvdh\LaravelIdeHelper\Console\ModelsCommand;
+use Lum\Generator\Console\EloquentCommand;
+use Lum\Generator\Console\GeneratorCommand;
+use Lum\Generator\Console\MetaCommand;
+use Lum\Generator\Console\ModelsCommand;
 use Illuminate\Contracts\Support\DeferrableProvider;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\ServiceProvider;

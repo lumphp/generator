@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Barryvdh\LaravelIdeHelper\Tests\Console\ModelsCommand\MagicWhere\Models;
+namespace Lum\Generator\Tests\Console\ModelsCommand\MagicWhere\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

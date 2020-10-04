@@ -9,9 +9,9 @@
  * @link      https://github.com/barryvdh/laravel-ide-helper
  */
 
-namespace Barryvdh\LaravelIdeHelper\Console;
+namespace Lum\Generator\Console;
 
-use Barryvdh\LaravelIdeHelper\Factories;
+use Lum\Generator\Factories;
 use Illuminate\Console\Command;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
@@ -28,7 +28,7 @@ class MetaCommand extends Command
      *
      * @var string
      */
-    protected $name = 'ide-helper:meta';
+    protected $name = 'gen:meta';
 
     /**
      * The console command description.

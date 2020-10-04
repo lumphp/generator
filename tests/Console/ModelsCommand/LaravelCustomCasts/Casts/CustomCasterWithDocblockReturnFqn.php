@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Barryvdh\LaravelIdeHelper\Tests\Console\ModelsCommand\LaravelCustomCasts\Casts;
+namespace Lum\Generator\Tests\Console\ModelsCommand\LaravelCustomCasts\Casts;
 
 use Illuminate\Contracts\Database\Eloquent\CastsAttributes;
 
@@ -10,7 +10,7 @@ class CustomCasterWithDocblockReturnFqn implements CastsAttributes
 {
     /**
      * @inheritDoc
-     * @return \Barryvdh\LaravelIdeHelper\Tests\Console\ModelsCommand\LaravelCustomCasts\Casts\CastedProperty
+     * @return \Lum\Generator\Tests\Console\ModelsCommand\LaravelCustomCasts\Casts\CastedProperty
      */
     public function get($model, string $key, $value, array $attributes)
     {

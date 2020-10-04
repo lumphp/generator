@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Barryvdh\LaravelIdeHelper\Tests\Console;
+namespace Lum\Generator\Tests\Console;
 
-use Barryvdh\LaravelIdeHelper\Console\EloquentCommand;
-use Barryvdh\LaravelIdeHelper\Tests\TestCase;
+use Lum\Generator\Console\EloquentCommand;
+use Lum\Generator\Tests\TestCase;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Filesystem\Filesystem;
 use Mockery;

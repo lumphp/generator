@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Barryvdh\LaravelIdeHelper\Tests\Console\ModelsCommand;
+namespace Lum\Generator\Tests\Console\ModelsCommand;
 
-use Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider;
-use Barryvdh\LaravelIdeHelper\Tests\SnapshotPhpDriver;
-use Barryvdh\LaravelIdeHelper\Tests\TestCase;
+use Lum\Generator\IdeHelperServiceProvider;
+use Lum\Generator\Tests\SnapshotPhpDriver;
+use Lum\Generator\Tests\TestCase;
 
 abstract class AbstractModelsCommand extends TestCase
 {

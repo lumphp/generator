@@ -9,7 +9,7 @@
  * @link      https://github.com/barryvdh/laravel-ide-helper
  */
 
-namespace Barryvdh\LaravelIdeHelper;
+namespace Lum\Generator;
 
 use Illuminate\Foundation\AliasLoader;
 use Illuminate\Support\Collection;

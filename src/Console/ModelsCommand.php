@@ -9,7 +9,7 @@
  * @link      https://github.com/barryvdh/laravel-ide-helper
  */
 
-namespace Barryvdh\LaravelIdeHelper\Console;
+namespace Lum\Generator\Console;
 
 use Barryvdh\Reflection\DocBlock;
 use Barryvdh\Reflection\DocBlock\Context;
@@ -71,7 +71,7 @@ class ModelsCommand extends Command
      *
      * @var string
      */
-    protected $name = 'ide-helper:models';
+    protected $name = 'gen:models';
     protected $filename = '_ide_helper_models.php';
 
     /**

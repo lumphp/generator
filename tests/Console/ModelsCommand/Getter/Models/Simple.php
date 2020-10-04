@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Barryvdh\LaravelIdeHelper\Tests\Console\ModelsCommand\Getter\Models;
+namespace Lum\Generator\Tests\Console\ModelsCommand\Getter\Models;
 
 use DateTime;
 use Illuminate\Database\Eloquent\Model;

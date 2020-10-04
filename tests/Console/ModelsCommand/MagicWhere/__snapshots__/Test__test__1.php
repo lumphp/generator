@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Barryvdh\LaravelIdeHelper\Tests\Console\ModelsCommand\MagicWhere\Models;
+namespace Lum\Generator\Tests\Console\ModelsCommand\MagicWhere\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * Barryvdh\LaravelIdeHelper\Tests\Console\ModelsCommand\MagicWhere\Models\Post
+ * Lum\Generator\Tests\Console\ModelsCommand\MagicWhere\Models\Post
  *
  * @property integer $id
  * @property string|null $char_nullable

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Barryvdh\LaravelIdeHelper\Tests\Console\ModelsCommand\GeneratePhpdocWithFqnInExternalFile\Builders;
+namespace Lum\Generator\Tests\Console\ModelsCommand\GeneratePhpdocWithFqnInExternalFile\Builders;
 
 use Illuminate\Database\Eloquent\Builder;
 

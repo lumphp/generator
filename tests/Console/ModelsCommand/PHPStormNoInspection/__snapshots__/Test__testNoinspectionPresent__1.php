@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Barryvdh\LaravelIdeHelper\Tests\Console\ModelsCommand\PHPStormNoInspection\Models;
+namespace Lum\Generator\Tests\Console\ModelsCommand\PHPStormNoInspection\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * Barryvdh\LaravelIdeHelper\Tests\Console\ModelsCommand\PHPStormNoInspection\Models\Simple
+ * Lum\Generator\Tests\Console\ModelsCommand\PHPStormNoInspection\Models\Simple
  *
  * @property integer $id
  * @method static \Illuminate\Database\Eloquent\Builder|Simple newModelQuery()

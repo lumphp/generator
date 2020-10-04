@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Barryvdh\LaravelIdeHelper\Tests;
+namespace Lum\Generator\Tests;
 
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;

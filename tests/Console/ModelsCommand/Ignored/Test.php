@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Barryvdh\LaravelIdeHelper\Tests\Console\ModelsCommand\Ignored;
+namespace Lum\Generator\Tests\Console\ModelsCommand\Ignored;
 
-use Barryvdh\LaravelIdeHelper\Console\ModelsCommand;
-use Barryvdh\LaravelIdeHelper\Tests\Console\ModelsCommand\AbstractModelsCommand;
-use Barryvdh\LaravelIdeHelper\Tests\Console\ModelsCommand\Ignored\Models\Ignored;
+use Lum\Generator\Console\ModelsCommand;
+use Lum\Generator\Tests\Console\ModelsCommand\AbstractModelsCommand;
+use Lum\Generator\Tests\Console\ModelsCommand\Ignored\Models\Ignored;
 
 class Test extends AbstractModelsCommand
 {

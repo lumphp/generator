@@ -9,10 +9,10 @@
  * @link      https://github.com/barryvdh/laravel-ide-helper
  */
 
-namespace Barryvdh\LaravelIdeHelper\Console;
+namespace Lum\Generator\Console;
 
-use Barryvdh\LaravelIdeHelper\Eloquent;
-use Barryvdh\LaravelIdeHelper\Generator;
+use Lum\Generator\Eloquent;
+use Lum\Generator\Generator;
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
 use Symfony\Component\Console\Input\InputArgument;
@@ -30,7 +30,7 @@ class GeneratorCommand extends Command
      *
      * @var string
      */
-    protected $name = 'ide-helper:generate';
+    protected $name = 'gen:helper';
 
     /**
      * The console command description.

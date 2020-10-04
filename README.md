@@ -46,14 +46,14 @@ If for some reason you want manually control this:
   ```
 - Add the following class to the `providers` array in `config/app.php`:
   ```php
-  Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
+  Lum\Generator\IdeHelperServiceProvider::class,
   ```
   If you want to manually load it only in non-production environments, instead you can add this to your `AppServiceProvider` with the `register()` method:
   ```php
   public function register()
   {
       if ($this->app->isLocal()) {
-          $this->app->register(\Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class);
+          $this->app->register(\Lum\Generator\IdeHelperServiceProvider::class);
       }
       // ...
   }
@@ -99,7 +99,7 @@ You can configure your `composer.json` to do this each time you update your depe
 You can also publish the config file to change implementations (ie. interface to specific class) or set defaults for `--helpers`.
 
 ```bash
-php artisan vendor:publish --provider="Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider" --tag=config
+php artisan vendor:publish --provider="Lum\Generator\IdeHelperServiceProvider" --tag=config
 ```
 
 The generator tries to identify the real class, but if it cannot be found, you can define it in the config file.
@@ -327,7 +327,7 @@ you will have to add this line of code under the `Register Service Providers` se
 
 ```php
 if ($app->environment() !== 'production') {
-    $app->register(\Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class);
+    $app->register(\Lum\Generator\IdeHelperServiceProvider::class);
 }
 ```
 

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Barryvdh\LaravelIdeHelper\Tests;
+namespace Lum\Generator\Tests;
 
-use Barryvdh\LaravelIdeHelper\Method;
+use Lum\Generator\Method;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Foundation\Application;
 use PHPUnit\Framework\TestCase;
@@ -36,12 +36,12 @@ class MethodTest extends TestCase
 
         $output = <<<'DOC'
 /**
- * 
+ *
  *
  * @param string $last
  * @param string $first
  * @param string $middle
- * @static 
+ * @static
  */
 DOC;
         $this->assertSame($output, $method->getDocComment(''));
@@ -74,8 +74,8 @@ DOC;
  *
  * @param string|array $relations
  * @param string|\Closure|null $callback
- * @return \Illuminate\Database\Eloquent\Builder|static 
- * @static 
+ * @return \Illuminate\Database\Eloquent\Builder|static
+ * @static
  */
 DOC;
         $this->assertSame($output, $method->getDocComment(''));

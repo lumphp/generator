@@ -57,9 +57,9 @@ class GeneratorsServiceProvider extends ServiceProvider
     protected function registerModel()
     {
         $this->app->singleton(
-            'generate.model',
+            'generator.model',
             function ($app) {
-                $generator = $this->app->make('\Generator\Generators\DefaultGenerator');
+                $generator = $this->app->make('\Lu \Generator\DefaultGenerator');
 
                 return new ModelGeneratorCommand($generator);
             }
@@ -72,7 +72,7 @@ class GeneratorsServiceProvider extends ServiceProvider
      */
     public function registerConfig()
     {
-        $userConfigFile = $this->app->configPath().'/generators.config.php';
+        $userConfigFile = $this->app->configPath().'/generator.config.php';
         $packageConfigFile = realpath(__DIR__.'/../config/config.php');
         $config = $this->app['files']->getRequire($packageConfigFile);
         if (file_exists($userConfigFile)) {
@@ -88,7 +88,7 @@ class GeneratorsServiceProvider extends ServiceProvider
     protected function registerView()
     {
         $this->app->singleton(
-            'generate.view',
+            'generator.view',
             function ($app) {
                 $generator = $this->app->make('\Lum\Generator\DefaultGenerator');
 
@@ -104,7 +104,7 @@ class GeneratorsServiceProvider extends ServiceProvider
     protected function registerController()
     {
         $this->app->singleton(
-            'generate.controller',
+            'generator.controller',
             function ($app) {
                 $generator = $this->app->make('\Lum\Generator\DefaultGenerator');
 
@@ -120,7 +120,7 @@ class GeneratorsServiceProvider extends ServiceProvider
     protected function registerMvc()
     {
         $this->app->singleton(
-            'generate.mvc',
+            'generator.mvc',
             function ($app) {
                 return new MvcGeneratorCommand;
             }

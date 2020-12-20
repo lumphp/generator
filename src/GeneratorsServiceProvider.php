@@ -57,9 +57,9 @@ class GeneratorsServiceProvider extends ServiceProvider
     protected function registerModel()
     {
         $this->app->singleton(
-            'generator.model',
+            'generate.model',
             function ($app) {
-                $generator = $this->app->make('\Lu \Generator\DefaultGenerator');
+                $generator = $this->app->make('\Lum\Generator\DefaultGenerator');
 
                 return new ModelGeneratorCommand($generator);
             }
@@ -88,7 +88,7 @@ class GeneratorsServiceProvider extends ServiceProvider
     protected function registerView()
     {
         $this->app->singleton(
-            'generator.view',
+            'generate.view',
             function ($app) {
                 $generator = $this->app->make('\Lum\Generator\DefaultGenerator');
 
@@ -104,7 +104,7 @@ class GeneratorsServiceProvider extends ServiceProvider
     protected function registerController()
     {
         $this->app->singleton(
-            'generator.controller',
+            'generate.controller',
             function ($app) {
                 $generator = $this->app->make('\Lum\Generator\DefaultGenerator');
 
@@ -120,7 +120,7 @@ class GeneratorsServiceProvider extends ServiceProvider
     protected function registerMvc()
     {
         $this->app->singleton(
-            'generator.mvc',
+            'generate.mvc',
             function ($app) {
                 return new MvcGeneratorCommand;
             }

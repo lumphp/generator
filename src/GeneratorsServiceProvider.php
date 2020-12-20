@@ -44,7 +44,7 @@ class GeneratorsServiceProvider extends ServiceProvider
             'Model',
             'View',
             'Controller',
-            'Rest',
+            'Mvc',
         ] as $command) {
             $methodName = sprintf('register%s', $command);
             $this->$methodName();
@@ -79,7 +79,7 @@ class GeneratorsServiceProvider extends ServiceProvider
             $userConfig = $this->app['files']->getRequire($userConfigFile);
             $config = array_replace_recursive($config, $userConfig);
         }
-        $this->app['config']->set('generators.config', $config);
+        $this->app['config']->set('generator.config', $config);
     }
 
     /**
